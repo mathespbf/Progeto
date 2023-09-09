@@ -1,30 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-  <div class="man-login">
-    <div class="longin-direita">
-
-      <img src="logo.png" alt="">
-
-      <h2>Longin</h2>
-      <input type="text" name="login" placeholder="Login">
-      <h2>senha</h2>
-      <input type="password" name="senha" aria-placeholder="Senha">
-
-      <button>Entrar</button>
-
+    <div class="container">
+        <div class="arealogin">
+            <h3 class="loginTexto">Email</h3>
+            <input class="inputLogin" type="text" placeholder="Email">
+            <h3 class="loginTexto">Senha</h3>
+            <input class="inputLogin" type="password" placeholder="Senha">
+            <input type="checkbox" name="lembreme" id="lembreme">
+            <label for="lembreme">Lembrar a Senha</label>
+            <a id="esqueceuSenha" href="">Esqueceu a senha ?</a>
+            <button class="btnlogin" >Login</button>
+            <button class="btncadastro">Cadastro</button>
+        </div>
     </div>
-    
-    <div class="login-esquerda">
-
-    </div>
-  </div>
 </body>
 </html>
