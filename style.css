@@ -3,8 +3,11 @@
     padding: 0;
     border: 0;
     font-family: sans-serif;
+    
 }
-
+body{
+    background-color: hsl(60, 100%, 72%);
+}
 .container{
     width: 100vw;
     height: 100vh;
