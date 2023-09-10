@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    border: 0;
     font-family: sans-serif;
 }
 
@@ -16,8 +17,8 @@
 }
 
 .arealogin{
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: #0482ab;
     display: flex;
     justify-content: center;
@@ -28,8 +29,8 @@
 }
 
 .inputcaixa{
-    width: 400px;
-    height: 50px;
+    width: 300px;
+    height: 40px;
     border: 0;
     border-radius: 15px;
     margin-top: 10px;
@@ -37,22 +38,25 @@
     margin-bottom: 15px;
     font-size: medium;
 }
-
+.areatexto1{
+    display: flex;
+}
 .areatexto1 a{
-    padding-left: 100px;
+    margin-left: 10px;
 }
 
 .areatexto1 label{
-    padding-right: 40px;
+    
+    margin-right: 40px;
 }
 
 .lembremecheck{
-    margin-left: 25px;
+    margin-right: 5px;
 }
 
 
 .btnlogin{
-    width: 400px;
+    width: 300px;
     height: 45px;
     margin: 20px;
     border: 0;
