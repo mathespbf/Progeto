@@ -5,32 +5,16 @@
 }
 
 .container{
-    width: 100%;
-    height: 100vh;
     background-color: #0482ab;
-}
-
-.arealogin{
-    width: 100vh;
-    height: 100%;
-    margin-left: 100px;
-    background-color: #fffe6e;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
 }
-
-.loginTexto{
-
-    font-size: medium;
+.arealogin{
+    width: 50%;
+    height: 100%;
+    background-color: #fffe6e;
     display: flex;
-    
-}
-.inputLogin{
-    border: 0;
-    width: 60%;
-    height: 30px;
-    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
