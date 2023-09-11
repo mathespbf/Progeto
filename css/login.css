@@ -57,6 +57,14 @@ body{
     margin-right: 5px;
 }
 
+.areatexto2{
+    display: flex;
+    margin-top: 5px;
+}
+
+.areatexto2 a{
+    margin-left: 10px;
+}
 
 .btnlogin{
     width: 300px;
