@@ -6,12 +6,12 @@
     
 }
 body{
-    background-color: hsl(60, 100%, 72%);
+    background-color: #ffff70;
 }
 .container{
     width: 100vw;
     height: 100vh;
-    background-color: hsl(60, 100%, 72%);
+    background-color: #ffff70;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,6 +20,7 @@ body{
 }
 
 .arealogin{
+    
     width: 400px;
     height: 300px;
     background-color: #0482ab;
@@ -40,6 +41,8 @@ body{
     padding-left: 10px;
     margin-bottom: 15px;
     font-size: medium;
+    
+
 }
 .areatexto1{
     display: flex;
@@ -75,6 +78,7 @@ body{
     border-radius: 15px;
     color: white;
     font-size: x-large;
+    
 }
 
 

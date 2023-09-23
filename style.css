@@ -1,0 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #F0F0F0;
+    
+}
+.container, .container-header{
+    border: 3px solid #213555;
+    margin: 20px;
+    padding: 80px;
+    background-color: #4F709C;
+}
