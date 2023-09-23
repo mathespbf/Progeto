@@ -3,26 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
-    <title>Login</title>
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <!--incons-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Ptojeto</title>
 </head>
 <body>
     <div class="container">
-        <div class="arealogin">
-            <input class="inputcaixa" type="email" placeholder="Email">
-            <input class="inputcaixa" type="password" placeholder="Senha">
-            <div class="areatexto1">
-                <input class="lembremecheck" type="checkbox" name="lembreme" id="lembreme">
-                <label class="lembremelabel" for="lembreme">Lembre-me</label>
-                <a href="#">Esqueci minha senha</a>
+        <nav class="indigo darken-4">
+            <a href="#" data-target="slide-out" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+            <div class="nav-wrapper container">
+                <!--logo-->
+                <div class="brand-logo light">teste</div>
+                <!--menu desktop-->
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="">home</a></li>
+                    <li><a href="">sobre</a></li>
+                    <li><a href="">contato</a></li>
+                </ul>
+                <!--menu mobile-->
+                <ul id="slide-out" class="sidenav">
+                    <li><a href="">homo</a></li>
+                    <li><a href="">sobre</a></li>
+                    <li><a href="">contato</a></li>
+                </ul>
             </div>
-            <button class="btnlogin">Entrar</button>
-            
-        </div>
-        <div class="areatexto2">
-            <label for="">Não tem uma conta ?</label>
-            <a href="cadastro.html">Inscreva-se</a>
-        </div>
+        </nav>
+        <main>
+
+        </main>
     </div>
+    <aside>
+
+    </aside>
+    <!--jq-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
