@@ -3,48 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- Compiled and minified CSS -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-     <!--incons-->
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+    <link rel="stylesheet" href="style.css">
     <title>Ptojeto</title>
 </head>
 <body>
-    <div class="container">
-        <nav class="remover">
-            <a href="#" data-target="slide-out" class="sidenav-trigger">
-                <i class="material-icons">menu</i>
-            </a>
-            <div class="nav-wrapper container">
-                <!--logo-->
-                <div class="brand-logo light">teste</div>
-                <!--menu desktop-->
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="">home</a></li>
-                    <li><a href="">sobre</a></li>
-                    <li><a href="">contato</a></li>
-                </ul>
-                <!--menu mobile-->
-                <ul id="slide-out" class="sidenav">
-                    <li><a href="">homo</a></li>
-                    <li><a href="">sobre</a></li>
-                    <li><a href="">contato</a></li>
-                </ul>
-            </div>
-        </nav>
-        <main>
-
+    <div class="cont_top">
+        <header>
+            <img class="logo" src="" alt="10px" style="background-color: black;">
+            <nav class="menu">
+                <a href="" class="links_menu">Doações</a>
+                <a href="" class="links_menu">Vacinas</a>
+                <a href="" class="links_menu">Cadastre-se</a>
+            </nav>
+        </header>
+        <main class="cont">
+            <h3>Mãos e patas solidarias</h3>
+            <h1>Seja bem vindo</h1>
+            <button class="btn_sobre">Sobre nós</button>
         </main>
     </div>
-    <aside>
+    <aside class="area_login">
+        <form class="teste" action="">
+            <div class="s_inpn">
+                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="Sobrenome">
+            </div>
+            <div class="s_inp">
+                <input type="email" placeholder="E-mail">
+            </div>
+            <div class="s_inp">
+                <input type="password" placeholder="Senha">
+            </div>
+            <div class="s_inp">
+                <input type="password" placeholder="Confirmar senha">
+            </div>
 
+            
+        </form>
+        <button class="btn_cadastro">Criar contar</button>
     </aside>
-    <!--jq-->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
