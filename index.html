@@ -4,43 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Ptojeto</title>
+    <title>projeto</title>
 </head>
 <body>
-    <div class="cont_top">
-        <header>
-            <img class="logo" src="" alt="10px" style="background-color: black;">
+    <!--CONTAINNER-TODA-PAGINA-->
+    <div class="container">
+        <!--LADO-ESQUERDO-DA-PAGINA-->
+        <div class="ladoEsquerdo">
+            <!--MENU-TOPO-DA-PAGINA-->
             <nav class="menu">
-                <a href="" class="links_menu">Doações</a>
-                <a href="" class="links_menu">Vacinas</a>
-                <a href="" class="links_menu">Cadastre-se</a>
+                <!--LOGO-TOPO-DA-PAGINA-->
+                <img class="logo" src="logo.png" alt="">
+                <!--LINKS-TOPO-DA-PAGINA-->
+                <div class="areaLinks">
+                    <a class="linkMenu" href="">Pagina Inicial</a>   
+                    <a class="linkMenu" href="">Vacinas</a>   
+                    <a class="linkMenu" href="">Doaçoes</a>   
+                    <a class="linkMenu" href="">cadastre-se</a>   
+                </div>
             </nav>
-        </header>
-        <main class="cont">
-            <h3>Mãos e patas solidarias</h3>
-            <h1>Seja bem vindo</h1>
-            <button class="btn_sobre">Sobre nós</button>
-        </main>
+            <!--TEXTO-CENTRO-DA-PAGINA-->
+            <div class="contCentral">
+                <h3>Mãos e patas solidárias</h3>
+                <h1>SEJA BEM VINDO</h1>
+            </div>
+        </div>
+        <div class="ladoDireito">
+            <div class="areaLogin">
+                <input type="text" name="" id="" placeholder="Nome">
+                <input type="text" name="" id="" placeholder="Sobrenome">
+                <input type="email" name="" id="" placeholder="E-mail">
+                <input type="password" name="" id="" placeholder="Senha">
+                <input type="password" name="" id="" placeholder="Confirmar Senha">
+            </div>
+        </div>
     </div>
-    <aside class="area_login">
-        <form class="teste" action="">
-            <div class="s_inpn">
-                <input type="text" placeholder="Nome">
-                <input type="text" placeholder="Sobrenome">
-            </div>
-            <div class="s_inp">
-                <input type="email" placeholder="E-mail">
-            </div>
-            <div class="s_inp">
-                <input type="password" placeholder="Senha">
-            </div>
-            <div class="s_inp">
-                <input type="password" placeholder="Confirmar senha">
-            </div>
-
-            
-        </form>
-        <button class="btn_cadastro">Criar contar</button>
-    </aside>
 </body>
 </html>
