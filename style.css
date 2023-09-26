@@ -20,18 +20,18 @@
 /*==============MENU-DA-PAGINA=======================*/
 .menu{
     width: 100%;
-    height: 60px;
+    height: 3.75rem;
     background-color: #E1E1E1;
     display: flex;
 }
 .logo{
     display: flex;
-    margin-left: 20px;   
+    margin-left: 1.25rem;   
 }
 /*==============LINKS-DO-MENU=======================*/
 .areaLinks{
     width: 100%;
-    height: 60px;
+    height: 3.75rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -45,8 +45,8 @@
     text-decoration: none;
     font-family: 'Anton', sans-serif;
     font-weight: 100;
-    margin-left: 10px;
-    margin-right: 20px;
+    margin-left: 0.625rem;
+    margin-right: 1.25rem;
 }
 /*==============CONTEUDO-CENTRAL-DA-PAGINA=======================*/
 .contCentral{
@@ -60,12 +60,12 @@
 .contCentral h3{
     font-family: 'Anton', sans-serif;
     font-weight: 100;
-    font-size: 25px;
+    font-size: 1.563rem;
 }
 .contCentral h1{
     font-family: 'Shrikhand', cursive;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 3.75rem;
 }
 /*==============LADO-DIREITO-DA-PAGINA==========================*/
 .ladoDireito{
@@ -78,8 +78,38 @@
     background-color: #F3E9C5;
 }
 /*=====================AREA-LOGIN================================*/
-.areaLogin{
+.areaCadastro{
     width: 80%;
     height: 60%;
-    background-color: aqua;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.areaCadastro input{
+    width: 22rem;
+    height: 1.5rem;
+    border: 0;
+    border-radius: 0.8rem;
+    padding: 0.4rem;
+    margin: 0.4rem;
+}
+.nomeCadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+}
+.nomeCadastro input{
+
+    width: 10.150rem;
+}
+.btnCadastro{
+    background-color: rgb(98, 98, 255);
+    width: 22.5rem;
+    height: 2rem;
+    border: 0;
+    border-radius: 0.8rem;
+    padding: 0.4rem;
+    margin: 0.4rem;
 }
