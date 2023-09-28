@@ -26,8 +26,11 @@
     display: flex;
 }
 .logo{
-    display: flex;
-    margin-left: 1.25rem;   
+    margin: 0.5rem;
+    margin-left: 1.5rem;
+}
+.logo img{
+    width: 5rem;  
 }
 /*==============LINKS-DO-MENU=======================*/
 .areaLinks{
@@ -37,6 +40,7 @@
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 3rem;
+    margin-top: 1rem;
 }
 .linkMenu{
     display: flex;
@@ -151,4 +155,11 @@
     align-items: center;
     flex-direction: column;
     border-radius: 1rem;
+}
+.titulos{
+    font-family: 'Shrikhand', cursive;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-top: 4rem;
 }
