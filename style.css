@@ -1,7 +1,14 @@
+@charset "UTF-8";
 /*==============FONTES-DA-PAGINA=============================*/
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 /*==============RESET-DA-PAGINA==============================*/
+:root{
+    --cor1: #F4F2D3 ;
+    --cor2: #F4E869 ;
+    --cor3: #3085C3 ;
+    --cor4: #5CD2E6 ;
+}
 *{
     margin: 0;
     padding: 0;
@@ -11,18 +18,18 @@
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-color: #E1E1E1;
+    background-color: var(--cor1);
 }
 .ladoEsquerdo{
     width: 60%;
     height: 100%;
-    background-color: #E1E1E1;    
+    background-color: var(--cor1);    
 }
 /*==============MENU-DA-PAGINA=======================*/
 .menu{
     width: 100%;
     height: 3.75rem;
-    background-color: #E1E1E1;
+    background-color: var(--cor1);
     display: flex;
 }
 .logo{
@@ -54,6 +61,9 @@
     margin-left: 0.625rem;
     margin-right: 1.25rem;
 }
+.linkMenu:hover{
+    color: var(--cor3);
+}
 /*==============CONTEUDO-CENTRAL-DA-PAGINA=======================*/
 .contCentral{
     display: flex;
@@ -81,7 +91,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #F3E9C5;
+    background-color: var(--cor2);
 }
 /*=====================AREA-CADASTRO================================*/
 .areaCadastro{
@@ -113,7 +123,7 @@
 }
 /*=====================BOTÃO-CADASTRO================================*/
 .btnCadastro{
-    background-color: rgb(98, 98, 255);
+    background-color: var(--cor3);
     width: 22.5rem;
     height: 2rem;
     border: 0;
@@ -125,14 +135,14 @@
 .container_vacina{
     width: 100%;
     height: 100vh;
-    background-color: #E1E1E1;  
+    background-color: var(--cor1);  
 }
 .conteudo_vacina{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #E1E1E1;  
+    background-color: var(--cor1);  
 }
 .cards{
     margin: 5rem;
@@ -148,7 +158,7 @@
     width: 30%;
     height: 12rem;
     margin: 1rem;
-    background-color: #F3E9C5;
+    background-color: var(--cor2);
     padding: 2rem;
     display: flex;
     justify-content: center;
