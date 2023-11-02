@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: aquamarine;
+    width: 100Vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px 0 20px;
+}
+
+.cad_log{
+    background-color: blueviolet;
+    width: 50%;
+    height: 50%;
+    margin: auto  auto;
+    text-align: center;
+}
