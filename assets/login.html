@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
     <title>Login</title>
 </head>
+
 <body>
     <div class="container">
         <div class="topo">
-            <h1>MEGAFONE</h1>
-            <a href="#">Cadastre-se</a>
+            <h2>MEGAFONE</h2>
+            <a href="">Cadastre-se</a>
         </div>
 
-        <form class="cad_log" action="">
-            <h2>LOGIN</h2>
-            <div class="entrada">
-                <label for="email">login:</label>
-                <input type="email" name="email" id="email">
-            </div>
-            <div class="entrada">
-                <label for="senha">senha:</label>
-                <input type="password" name="senha" id="senha">
-            </div>
-            <input class="btn_entrar" type="submit" value="Entrar">
-            <div class="baselogin">
-                <a href="#">Esqueceu a senha?</a>
-                <div class="lembreme">
-                    <input type="checkbox" name="lembreme" id="lembreme">
-                    <label for="lembreme">Lembre-me</label>
+        <section class="areaform">
+            <form class="box" action="">
+                <h2>Login</h2>
+                <div class="inputs">
+                    <div class="inputtexto">
+                        <p for="email_login">Email:</p>
+                        <input type="email" name="email_login" id="email_login">
+                    </div>
+    
+                    <div class="inputtexto">
+                        <p for="senha_login">Email:</p>
+                        <input type="password" name="senha_login" id="senha_login">
+                    </div>
+                    <input class="btn_form" type="submit" value="Entrar">
                 </div>
-            </div>
-        </form>
+            </form>
+        </section>
     </div>
 </body>
+
 </html>

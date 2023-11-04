@@ -4,25 +4,39 @@
 }
 
 .container{
-    background-color: aquamarine;
-    width: 100Vw;
+    background-color: aqua;
+    width: 100vw;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    
 }
 
 .topo{
     display: flex;
     justify-content: space-between;
+    margin: 0px 20px;
+    padding-top: 10px;
     align-items: center;
-    margin: 10px 20px 0 20px;
 }
 
-.cad_log{
-    background-color: blueviolet;
+.areaform{
+
+    background-color: aquamarine;
     width: 50%;
     height: 50%;
-    margin: auto  auto;
-    text-align: center;
+    margin: 10% auto;
 }
+
+.inputs{
+
+margin: auto auto;
+
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    box-sizing: border-box;
+}
+
+
