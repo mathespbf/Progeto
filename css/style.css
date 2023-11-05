@@ -94,6 +94,6 @@ margin: auto auto;
 @media screen and (max-width: 450px) {
     .areaform{
         width: 100%;
-        height: 100%;
+        height: 50%;
     }
 }
