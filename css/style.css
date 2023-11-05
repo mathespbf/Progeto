@@ -9,13 +9,9 @@
     height: 100vh;
 }
 
-.topo{
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 20px;
-    padding-top: 10px;
-    align-items: center;
-}
+
+
+/*=========FORM=CADASTRO/LOGIN==========*/
 
 .areaform{
 
