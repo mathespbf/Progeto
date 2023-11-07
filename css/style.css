@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.container{
+.container {
     background-color: aqua;
     width: 100vw;
     height: 100vh;
@@ -13,22 +13,21 @@
 
 /*=========FORM=CADASTRO/LOGIN==========*/
 
-.areaform{
+.areaform {
 
     background-color: aquamarine;
     width: 50%;
-    height: 55%;
     margin: 10% auto;
     border-radius: 15px;
 }
 
-.inputs{
+.inputs {
 
-margin: auto auto;
+    margin: auto auto;
 
 }
 
-.box{
+.box {
     width: 100%;
     height: 100%;
     display: flex;
@@ -36,27 +35,28 @@ margin: auto auto;
     align-items: center;
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 10px;   
+    padding: 10px;
 }
 
 
-.inputs{
+.inputs {
     width: 60%;
     display: flex;
     flex-direction: column;
     gap: 10px;
     align-items: center;
+    box-sizing: border-box;
 }
 
-.inputtexto{
+.inputtexto {
     width: 100%;
 }
 
-.inputtexto{
+.inputtexto {
     font-size: 18px;
 }
 
-.inputpadrao{
+.inputpadrao {
     border: none;
     width: 100%;
     height: 25px;
@@ -64,7 +64,7 @@ margin: auto auto;
     padding: 5px;
 }
 
-.botoes{
+.botoes {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -72,7 +72,7 @@ margin: auto auto;
     flex-wrap: wrap;
 }
 
-.btn_form{
+.btn_form {
     width: 100px;
     height: 30px;
     border: none;
@@ -81,20 +81,19 @@ margin: auto auto;
     cursor: pointer;
 }
 
-.lembreme{
-    display: flex;    
+.lembreme {
+    display: flex;
     gap: 3px;
 }
 
-.lembreme input{
+.lembreme input {
     cursor: pointer;
 }
 
 
 @media screen and (max-width: 450px) {
-    .areaform{
+    .areaform {
         width: 100%;
-        height: 50%;
         margin: 25% auto;
     }
 }
