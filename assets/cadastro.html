@@ -13,7 +13,7 @@
     <div class="container">
         <div class="topo">
             <h2>MEGAFONE</h2>
-            <a href="">Entrar</a>
+            <a href="/assets/login.html">Entrar</a>
         </div>
 
         <section class="areaform">
@@ -31,6 +31,10 @@
                     </div>
     
                     <div class="inputtexto">
+                        <p for="data_cadastro">Data de nascimento:</p>
+                        <input class="inputpadrao" name="data_cadastro" type="date" id="data_cadastro" onchange="verificarIdadeMinima()">
+                    </div>
+                    <div class="inputtexto">
                         <p for="senha_cadastro">Senha:</p>
                         <input class="inputpadrao" type="password" name="senha_cadastro" id="senha_cadastro">
                     </div>
@@ -39,6 +43,21 @@
             </form>
         </section>
     </div>
+
+    <!--verificador de tada te nescimento-->
+    <script>
+        function verificarIdadeMinima() {
+            var dataNascimento = new Date(document.getElementById("data_cadastro").value);
+            var hoje = new Date();
+            var idadeMinima = new Date(hoje - (365 * 18 * 24 * 60 * 60 * 1000)); // 18 anos em milissegundos
+
+            if (dataNascimento > idadeMinima) {
+                alert("Você deve ter pelo menos 18 anos de idade.");
+                document.getElementById("data_cadastro").value = "";
+            }
+        }
+    </script>
+    <!--Final do verificador de data de nascimento-->
 </body>
 
 </html>
