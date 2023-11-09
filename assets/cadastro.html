@@ -9,47 +9,61 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
-    <title>Login</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>cadastro</title>
 </head>
 
-<body>
-    <div class="container">
-        <div class="topo">
-            <div class="logo">
-                <h2>MEGAFONE</h2>
-                <img src="/img/logo.png" alt="Logo MEGAFONE">
+<body class="body">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-0  ">
+        <div class="container-fluid cordanav  ">
+            <div class="centralizarlogo">
+                <a id="fontepersonalizada" class="navbar-brand " href="#">MEGAFONE </a>
+                <img class="imgconfig " src="/img/logo.png" alt="Logo MEGAFONE">
             </div>
 
-            <a href="/assets/login.html">Entrar</a>
-        </div>
 
-        <section class="areaform">
-            <form class="box" method="post" action="google.com">
-                <h2>CADASTRO</h2>
-                <div class="inputs">
-                    <div class="inputtexto">
-                        <p for="nome_cadastro">Nome:</p>
-                        <input class="inputpadrao" type="text" name="nome_cadastro" id="nome_cadastro">
-                    </div>
-                    
-                    <div class="inputtexto">
-                        <p for="email_cadastro">Email:</p>
-                        <input class="inputpadrao" type="email" name="email_cadastro" id="email_cadastro">
-                    </div>
-    
-                    <div class="inputtexto">
-                        <p for="data_cadastro">Data de nascimento:</p>
-                        <input class="inputpadrao" name="data_cadastro" type="date" id="data_cadastro" onchange="verificarIdadeMinima()">
-                    </div>
-                    <div class="inputtexto">
-                        <p for="senha_cadastro">Senha:</p>
-                        <input class="inputpadrao" type="password" name="senha_cadastro" id="senha_cadastro">
-                    </div>
-                    <input class="btn_form" type="submit" value="Cadastrar">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  " id="navbarNavAltMarkup">
+                <div class="navbar-nav espacologonav">
+                    <a  class="nav-link active linksmenu" id="entrarmenu" href="/assets/login.html">Entrar</a>
                 </div>
-            </form>
-        </section>
-    </div>
+            </div>
+            <a class="linksmenu" id="linkentrar" href="/assets/login.html">Entrar</a>
+        </div>
+    </nav>
+
+    <section class="areaform">
+        <form class="box" method="post" action="google.com">
+            <h2>CADASTRO</h2>
+            <div class="inputs">
+                <div class="inputtexto">
+                    <p class="pinputs" for="nome_cadastro">Nome:</p>
+                    <input class="inputpadrao" type="text" name="nome_cadastro" id="nome_cadastro">
+                </div>
+
+                <div class="inputtexto">
+                    <p class="pinputs" for="email_cadastro">Email:</p>
+                    <input class="inputpadrao" type="email" name="email_cadastro" id="email_cadastro">
+                </div>
+
+                <div class="inputtexto">
+                    <p class="pinputs" for="data_cadastro">Data de nascimento:</p>
+                    <input class="inputpadrao" name="data_cadastro" type="date" id="data_cadastro"
+                        onchange="verificarIdadeMinima()">
+                </div>
+                <div class="inputtexto">
+                    <p class="pinputs" for="senha_cadastro">Senha:</p>
+                    <input class="inputpadrao" type="password" name="senha_cadastro" id="senha_cadastro">
+                </div>
+                <input class="btn_form" type="submit" value="Cadastrar">
+            </div>
+        </form>
+    </section>
 
     <!--verificador de dada te nescimento-->
     <script>
@@ -65,6 +79,13 @@
         }
     </script>
     <!--Final do verificador de data de nascimento-->
+
+    <!-- inicio bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous">
+    </script>
+    <!--fim bootstrap-->
 </body>
 
 </html>
