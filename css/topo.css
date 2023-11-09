@@ -9,6 +9,8 @@
     --fontlogo: "lalezar";
 }
 
+
+
 .topo{
     height: 50px;
     display: flex;
@@ -42,13 +44,54 @@
 }
 
 .logo img{
-    width: 80px;
+    width: 70px;
+}
+
+
+.imgconfig{
+    width: 70px;
+}
+
+.cordanav{
+    background-color: var(--cor01);
+    
+    
+}
+
+.espacologonav{
+    margin-left: 30%;
+    
+}
+
+#entrarmenu{
+    display: none;
+}
+
+#fontepersonalizada{
+    display: flex;
+    align-items: center;
+    font-family: var(--fontlogo);
+    font-size: 42px;
+    font-weight: 600;
+    color: var(--corfontw);
+    padding: 0;
+    margin: 0;
+}
+
+.centralizarlogo{
+    display: flex;
+    align-items: flex-end;
+    padding-left: 7px ;
 }
 
 @media screen and (max-width: 1000px) {
 
     #linkentrar{
         display: none;
+    }
+
+    #entrarmenu{
+        display: block;
     }
 
 }
