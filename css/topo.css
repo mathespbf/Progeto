@@ -60,6 +60,7 @@
 
 .espacologonav{
     margin-left: 30%;
+    gap: 15px;
     
 }
 
@@ -96,7 +97,6 @@
     font-family: var(--fontlogo);
     font-size: 24px;
     font-weight: 400;
-    margin-right: 0;
     text-decoration: none;
     color: var(--corfontw);
 }
