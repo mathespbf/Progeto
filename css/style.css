@@ -56,7 +56,7 @@
 
 }
 
-.box h2{
+.box h2 {
     font-family: var(--fontlogo);
     font-size: 40px;
     font-weight: 400;
@@ -88,7 +88,7 @@
     border-radius: 8px;
 }
 
-.pinputs{
+.pinputs {
     margin: 0;
 }
 
@@ -103,13 +103,13 @@
     font-weight: 600;
 }
 
-.botoes a{
+.botoes a {
     text-decoration: none;
     color: var(--corfontb);
     font-size: 16px;
 }
 
-#lembreme{
+#lembreme {
     width: 15px;
 }
 
@@ -135,19 +135,80 @@
 
 /*=========PAGINA=INDEX=============*/
 
-.areasobre{
+.areasobre {
     display: flex;
     background-color: var(--cor03);
+    padding: 20px 0 0 0;
 }
 
-.areasobre article{
-    background-color: aqua;
-    width: 50%;
+.areasobre article {
+    width: 40%;
     height: 600px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin: 100px 0 0 50px;
 }
+
+.areasobre article h2 {
+    font-family: var(--fontlogo);
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.areasobre article p {
+    width: 70%;
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.foto1{
+    width: 600px;
+    height: 350px;
+    background-color: #000000;
+    margin: 100px 0 0 50px;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.foto2{
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    position: relative;
+    top: -125px;
+    border-radius: 15px;
+    right: -15px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+/*==========area=problemas==================*/
+
+.areaproblemas{
+    background-color: var(--cor02);
+    height: 600px;
+}
+
+.cartoes{
+    
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cartao{
+    width: 300px;
+    height: 350px;
+    background-color: var(--corfontw);
+
+}
+
 
 @media screen and (max-width: 450px) {
     .areaform {
@@ -155,7 +216,7 @@
         margin: 25% auto;
     }
 
-    #linkentrar{
+    #linkentrar {
         display: none;
     }
 

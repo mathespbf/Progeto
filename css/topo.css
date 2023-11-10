@@ -94,7 +94,7 @@
 
 #linksmenu{
     font-family: var(--fontlogo);
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
     margin-right: 0;
     text-decoration: none;
@@ -118,6 +118,11 @@
     padding-left: 7px ;
 }
 
+#menufixo{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
 
 
 @media screen and (max-width: 1000px) {
