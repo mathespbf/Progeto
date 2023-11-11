@@ -282,11 +282,88 @@
     margin: 25px auto;
 }
 
+
+
 /*==========AREA=ESTATISTICA=FIM==========*/
 
 /*==============AREA=MAO==================*/
 
+.areamao{
+    display: flex;
+    height: 700px;
+    background-color: var(--cor02);
+    padding: 20px 0 0 0;
+    justify-content: center;
+    gap: 120px;
+}
 
+.areamao p{
+    width: 40%;
+    margin-top: 100px;
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.fotosm h2{
+    font-family: var(--fontlogo);
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.foto1m{
+    width: 250px;
+    height: 320px;
+    background-color: #000000;
+    top: 20px;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.foto2m{
+    width: 250px;
+    height: 320px;
+    background-color: #ff0000;
+    bottom: 300px;
+    left: 300px;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.foto3m{
+    width: 250px;
+    height: 320px;
+    background-color: rgb(0, 19, 192);
+    bottom: 400px;
+    left: 150px;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.pmao{
+    display: flex;
+    background-color: var(--cor02);
+    padding: 20px 0 0 0;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.pmao p{
+    width: 80%;
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0 auto;
+}
 /*==========area=mao=final==============*/
 
 @media screen and (max-width: 450px) {
