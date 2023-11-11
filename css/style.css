@@ -135,6 +135,8 @@
 
 /*=========PAGINA=INDEX=============*/
 
+/*=========AREA=SOBRE===============*/
+
 .areasobre {
     display: flex;
     background-color: var(--cor03);
@@ -187,6 +189,8 @@
 
 }
 
+/*=========AREA=SOBRE+FINAL=================*/
+
 /*==========area=problemas==================*/
 
 .areaproblemas {
@@ -233,6 +237,57 @@
     margin: 10px 0 0 0;
 }
 
+
+/*==========AREA=ESTATISTICA=============*/
+
+.areaestatistica {
+    display: flex;
+    background-color: var(--cor03);
+    padding: 20px 0 0 0;
+    justify-content: center;
+}
+
+.areaestatistica article {
+    width: 40%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 100px 0 0 70px;
+}
+
+.areaestatistica article h2 {
+    font-family: var(--fontlogo);
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.areaestatistica article p {
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.foto1e {
+    width: 600px;
+    height: 350px;
+    margin: 70px 0 0 50px;
+    border-radius: 15px;
+
+}
+.foto1e img{
+    width: 100%;
+    height: 100%;
+    margin: 25px auto;
+}
+
+/*==========AREA=ESTATISTICA=FIM==========*/
+
+/*==============AREA=MAO==================*/
+
+
+/*==========area=mao=final==============*/
 
 @media screen and (max-width: 450px) {
     .areaform {
